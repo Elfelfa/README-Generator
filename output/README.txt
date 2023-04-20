@@ -1,43 +1,43 @@
-# My Title
+# README Generator
 
-            ## Table of Contents
-            
-            [Description](#description)
-            [Installation](#installation)
-            [Usage](#usage)
-            [License](#license)
-            [Contributors](#contributors)
-            [Tests](#tests)
-            [Questions](#questions)
-            
-            ## Description
-            
-            [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+## Table of Contents
 
-            My desc
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributors](#contributors)
+[Tests](#tests)
+[Questions](#questions)
 
-            ## Installation
-            
-            My install
+## Description
 
-            ## Usage
-            
-            My use
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-            ## License
-            
-            This project uses: Apache 2.0 License
+This app will create a quality README for you to use for your GitHub repo.
 
-            ## Contributors
-            
-            Me
+## Installation
 
-            ## Tests
-            
-            undefined
+To install the required node directories for this application you must use 'npm i' prior to running the app.
 
-            ## Questions
+ ## Usage
 
-            GitHub: [https://github.com/Elfelfa](https://github.com/Elfelfa)
+To use this app you will need to call 'node index.js' in the assets/scripts folder through the command line. After it generates a README, it will save it to '../../output/'. Format the readme accordingly with what you need.
 
-            If you have any questions you can reach me at my email: elfelfa@gmail.com
+## License
+
+This project uses: The MIT License
+
+## Contributors
+
+Kolt Bodzo
+
+## Tests
+
+undefined
+
+## Questions
+
+GitHub: [https://github.com/Elfelfa](https://github.com/Elfelfa)
+
+If you have any questions you can reach me at my email: fakeemail@email.com

@@ -102,7 +102,7 @@ function init() {
             },
             {
                 type: 'input',
-                message: 'Input your contributors with a space between each name: ',
+                message: 'Input your contributors with a comma between each name: ',
                 name: 'contributors',
             },
             {
@@ -137,49 +137,7 @@ function init() {
                 }
             };
     
-            rmText = `# ${response.title}
-
-            ## Table of Contents
-            
-            [Description](#description)
-            [Installation](#installation)
-            [Usage](#usage)
-            [License](#license)
-            [Contributors](#contributors)
-            [Tests](#tests)
-            [Questions](#questions)
-            
-            ## Description
-            
-            ${lBadge}
-
-            ${response.description}
-
-            ## Installation
-            
-            ${response.installation}
-
-            ## Usage
-            
-            ${response.usage}
-
-            ## License
-            
-            This project uses: ${response.license}
-
-            ## Contributors
-            
-            ${response.contributors}
-
-            ## Tests
-            
-            ${response.tests}
-
-            ## Questions
-
-            GitHub: [https://github.com/${response.ghUsername}](https://github.com/${response.ghUsername})
-
-            If you have any questions you can reach me at my email: ${response.email}`;
+            rmText = `# ${response.title}\n\n## Table of Contents\n\n[Description](#description)\n[Installation](#installation)\n[Usage](#usage)\n[License](#license)\n[Contributors](#contributors)\n[Tests](#tests)\n[Questions](#questions)\n\n## Description\n\n${lBadge}\n\n${response.description}\n\n## Installation\n\n${response.installation}\n\n ## Usage\n\n${response.usage}\n\n## License\n\nThis project uses: ${response.license}\n\n## Contributors\n\n${response.contributors}\n\n## Tests\n\n${response.tests}\n\n## Questions\n\nGitHub: [https://github.com/${response.ghUsername}](https://github.com/${response.ghUsername})\n\nIf you have any questions you can reach me at my email: ${response.email}`;            
 
             fs.writeFile('../../output/README.txt', rmText, (err) =>
                 err ? console.error(err) : console.log('README created!')
