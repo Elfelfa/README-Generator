@@ -23,6 +23,8 @@ To install the required node directories for this application you must use 'npm 
 
 To use this app you will need to call 'node index.js' in the assets/scripts folder through the command line. After it generates a README, it will save it to '../../output/'. Format the readme accordingly with what you need.
 
+A video of demonstrated usage can be found here: [Video](https://drive.google.com/file/d/1M9GYOY6NQyhOSwILsrUCQzIAHOLZhzck/view)
+
 ## License
 
 This project uses: The MIT License
