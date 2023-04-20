@@ -7,7 +7,6 @@
 [Usage](#usage)
 [License](#license)
 [Contributors](#contributors)
-[Tests](#tests)
 [Questions](#questions)
             
 ## Description
