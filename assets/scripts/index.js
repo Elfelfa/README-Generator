@@ -132,7 +132,8 @@ function init() {
 
             for (let i = 0; i < licenses.length; i++){
                 if (licenses[i].includes(response.license)){
-                    lBadge = licenses[i].replace(`${response.license}`+`~`, '');
+                    lBadge = licenses[i].replace(`${response.license}`, '');
+                    lBadge = lBadge.replace('~', '');
                     break;
                 }
             };
