@@ -1,39 +1,39 @@
 # README Generator
 
-            ## Table of Contents
+## Table of Contents
             
-            [Description](#description)
-            [Installation](#installation)
-            [Usage](#usage)
-            [License](#license)
-            [Contributors](#contributors)
-            [Tests](#tests)
-            [Questions](#questions)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributors](#contributors)
+[Tests](#tests)
+[Questions](#questions)
             
-            ## Description
+## Description
             
-            [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-            This generator will create a good, quality, README for your GitHub repo.
+This generator will create a good, quality, README for your GitHub repo.
 
-            ## Installation
+## Installation
             
-            To install the required node directories for this application you must use 'npm i' prior to running the app.
+To install the required node directories for this application you must use 'npm i' prior to running the app.
 
-            ## Usage
+## Usage
             
-            To use this app you will need to call 'node index.js' in the assets/scripts folder through the command line.
+To use this app you will need to call 'node index.js' in the assets/scripts folder through the command line.
 
-            ## License
+## License
             
-            This project uses: The MIT License
+This project uses: The MIT License
 
-            ## Contributors
+## Contributors
             
-            Kolt Bodzo
+Kolt Bodzo
 
-            ## Questions
+## Questions
 
-            GitHub: [https://github.com/Elfelfa](https://github.com/Elfelfa)
+GitHub: [https://github.com/Elfelfa](https://github.com/Elfelfa)
 
-            If you have any questions you can reach me at my email: fakeemail@email.com
+If you have any questions you can reach me at my email: fakeemail@email.com
